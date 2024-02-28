@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native'
 
 
 const Recipes = ({ ingredient1, ingredient2 }) =>{
@@ -43,24 +43,6 @@ const Recipes = ({ ingredient1, ingredient2 }) =>{
 }
 
 const styles = StyleSheet.create({
-    container:{
-        flex:1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    title:{
-        fontSize: 30,
-        marginBottom:20,
-        fontWeight: "bold"
-    },
-    textInput:{
-        borderWidth:1,
-        borderColor:'gray',
-        width:'80%',
-        padding:10,
-        margin:20,
-        borderRadius: 5
-    },
     button:{
         backgroundColor:'#9AD0C2',
         padding:10,
@@ -68,24 +50,6 @@ const styles = StyleSheet.create({
     },
     buttonText:{
         color: "black"
-    },
-    sunnyContainer: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'lightyellow'
-    },
-    rainContainer : {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'lightblue'
-    },
-    cloudyContainer: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'lightgrey'
     },
     dataContainer: {
         justifyContent: 'center',

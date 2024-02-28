@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native'
+import { View, Text, TextInput, StyleSheet } from 'react-native'
 
 //Components
 import Recipes from './components/getRecipes';
@@ -47,39 +47,5 @@ const styles = StyleSheet.create({
     padding:10,
     margin:20,
     borderRadius: 5
-  },
-  button:{
-    backgroundColor:'#9AD0C2',
-    padding:10,
-    borderRadius:5,
-  },
-  buttonText:{
-    color: "black"
-  },
-  sunnyContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'lightyellow'
-  },
-  rainContainer : {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'lightblue'
-  },
-  cloudyContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'lightgrey'
-  },
-  dataContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingTop: 10
-  },
-  dataText:{
-    fontSize: 20
   }
 })
